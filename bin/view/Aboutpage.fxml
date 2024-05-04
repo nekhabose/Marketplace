@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.56" prefHeight="689.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SignupController">
+   <children>
+      <ImageView fitHeight="689.0" fitWidth="434.0" layoutX="1.0" layoutY="1.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Project/About%20page.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#141414e7" layoutX="256.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="644.0" fitWidth="386.0" layoutX="206.0" layoutY="47.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Project/About%20page.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#181717" layoutX="171.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="One-stop shop for all things under the sun." />
+      <Text layoutX="81.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Everything Emporium began with the simple idea of creating a marketplace where" />
+      <Text layoutX="81.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="anyone could buy and sell anything. We envisioned a digital bazaar overflowing with " />
+      <Text layoutX="81.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="unique treasures, everyday essentials, and everything in between." />
+      <Text layoutX="81.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What makes us different?" />
+      <Text layoutX="79.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Infinite Variety: From clothing and electronics to furniture and sporting goods," />
+      <Text layoutX="77.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="you'll find an unparalleled selection of new and pre-loved items across countless" />
+      <Text layoutX="77.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="categories." />
+      <Text layoutX="81.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Open to All: Whether you're a seasoned seller with a storefront full of inventory or" />
+      <Text layoutX="81.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="someone decluttering their garage, Everything Emporium welcomes everyone to" />
+      <Text layoutX="81.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="buy and sell." />
+      <Text layoutX="81.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Thrill of the Hunt: Explore our vast marketplace by category, search for" />
+      <Text layoutX="81.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="specific items, or simply browse and get inspired by the sheer diversity of what" />
+      <Text layoutX="81.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="you might discover." />
+      <Button layoutX="425.0" layoutY="594.0" mnemonicParsing="false" text="Previous">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

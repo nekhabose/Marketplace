@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <TextField fx:id="usrnm" layoutX="634.0" layoutY="186.0" promptText="Username" />
+      <PasswordField fx:id="pswd" layoutX="634.0" layoutY="225.0" promptText="Password" />
+      <Button fx:id="sellerButton" layoutX="741.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleLogin" text="Seller" />
+      <ImageView fitHeight="800.0" fitWidth="614.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Project_image/Marketplace.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="signUpButton" layoutX="675.0" layoutY="387.0" mnemonicParsing="false" onAction="#handleSignUp" text="Signup" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="640.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account?" />
+      <Text layoutX="640.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login:" />
+      <Button fx:id="buyerButton" layoutX="679.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleLogin" text="Buyer" />
+   </children>
+</AnchorPane>

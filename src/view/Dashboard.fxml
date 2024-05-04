@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.56" prefHeight="594.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SellerDashboardController">
+   <children>
+      <ImageView fitHeight="601.0" fitWidth="591.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Project_image/multicolor%20border_flowers.jpeg" />
+         </image>
+      </ImageView>
+       <Button layoutX="238.0" layoutY="138.0" mnemonicParsing="false" onAction="#addProduct" prefHeight="26.0" prefWidth="118.0" text="Add Product" />
+      <Button layoutX="237.0" layoutY="175.0" mnemonicParsing="false" onAction="#viewProduct" prefHeight="26.0" prefWidth="118.0" text="View Products" />
+      <Button layoutX="237.0" layoutY="210.0" mnemonicParsing="false" onAction="#viewOrder" prefHeight="26.0" prefWidth="118.0" text="View Orders" />
+      <Button layoutX="238.0" layoutY="246.0" mnemonicParsing="false" onAction="#viewAbout" prefHeight="26.0" prefWidth="118.0" text="About" />
+      <Button layoutX="238.0" layoutY="282.0" mnemonicParsing="false" onAction="#logOut" prefHeight="26.0" prefWidth="118.0" text="Log Out" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
