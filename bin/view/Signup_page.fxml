@@ -18,22 +18,22 @@
       <Text layoutX="340.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello Friend !!!" wrappingWidth="191.1137237548828" />
       <ImageView fitHeight="114.0" fitWidth="642.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Project/Black%20border.jpeg" />
+            <Image url="@../../Project_image/Black%20border.jpeg" />
          </image>
       </ImageView>
       <ImageView fitHeight="114.0" fitWidth="544.0" layoutX="205.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Project/Black%20border.jpeg" />
+            <Image url="@../../Project_image/Black%20border.jpeg" />
          </image>
       </ImageView>
       <ImageView fitHeight="114.0" fitWidth="338.0" layoutX="410.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Project/Black%20border.jpeg" />
+            <Image url="@../../Project_image/Black%20border.jpeg" />
          </image>
       </ImageView>
       <ImageView fitHeight="114.0" fitWidth="245.0" layoutX="615.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Project/Black%20border.jpeg" />
+            <Image url="@../../Project_image/Black%20border.jpeg" />
          </image>
       </ImageView>
       <TextField fx:id="address" layoutX="309.0" layoutY="309.0" promptText="Address" />

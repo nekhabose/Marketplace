@@ -10,15 +10,14 @@
    <children>
       <ImageView fitHeight="601.0" fitWidth="591.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Project/multicolor%20border_flowers.jpeg" />
+            <Image url="@../../Project_image/multicolor%20border_flowers.jpeg" />
          </image>
       </ImageView>
-       <Button layoutX="238.0" layoutY="138.0" mnemonicParsing="false" onAction="#addProduct" prefHeight="26.0" prefWidth="91.0" text="Add Product" />
-      <Button layoutX="237.0" layoutY="175.0" mnemonicParsing="false" onAction="#viewProduct" text="View Products" />
-      <Button layoutX="237.0" layoutY="210.0" mnemonicParsing="false" onAction="#viewOrder" prefHeight="26.0" prefWidth="91.0" text="View Orders" />
-      <Button layoutX="238.0" layoutY="246.0" mnemonicParsing="false" onAction="#viewProfile" prefHeight="26.0" prefWidth="91.0" text="Profile" />
-      <Button layoutX="238.0" layoutY="284.0" mnemonicParsing="false" onAction="#viewAbout" prefHeight="26.0" prefWidth="91.0" text="About" />
-      <Button layoutX="238.0" layoutY="320.0" mnemonicParsing="false" onAction="#logOut" prefHeight="26.0" prefWidth="91.0" text="Log Out" />
+       <Button layoutX="238.0" layoutY="138.0" mnemonicParsing="false" onAction="#addProduct" prefHeight="26.0" prefWidth="118.0" text="Add Product" />
+      <Button layoutX="237.0" layoutY="175.0" mnemonicParsing="false" onAction="#viewProduct" prefHeight="26.0" prefWidth="118.0" text="View Products" />
+      <Button layoutX="237.0" layoutY="210.0" mnemonicParsing="false" onAction="#viewOrder" prefHeight="26.0" prefWidth="118.0" text="View Orders" />
+      <Button layoutX="238.0" layoutY="246.0" mnemonicParsing="false" onAction="#viewAbout" prefHeight="26.0" prefWidth="118.0" text="About" />
+      <Button layoutX="238.0" layoutY="282.0" mnemonicParsing="false" onAction="#logOut" prefHeight="26.0" prefWidth="118.0" text="Log Out" />
    </children>
    <opaqueInsets>
       <Insets />

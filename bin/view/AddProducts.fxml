@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="567.0" fitWidth="591.0" layoutX="3.0" layoutY="44.0" opacity="0.33" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Project/Products_page.jpg" />
+            <Image url="@../../Project_image/Products_page.jpg" />
          </image>
       </ImageView>
       <TextField fx:id="productName" alignment="CENTER" layoutX="208.0" layoutY="172.0" prefHeight="27.0" prefWidth="267.0" promptText="Name">
@@ -62,17 +62,17 @@
             <Font name="System Bold Italic" size="12.0" />
          </font>
       </Text>
-      <Button layoutX="309.0" layoutY="389.0" mnemonicParsing="false" text="Add" onAction="#addProduct" textFill="#0b0b0b">
+      <Button layoutX="309.0" layoutY="389.0" mnemonicParsing="false" onAction="#addProduct" text="Add" textFill="#0b0b0b">
          <font>
             <Font name="System Bold Italic" size="13.0" />
          </font>
       </Button>
-      <Button layoutX="389.0" layoutY="524.0" mnemonicParsing="false" text="Previous " onAction="#goToPrevious" textFill="#0b0b0b">
+      <Button layoutX="389.0" layoutY="524.0" mnemonicParsing="false" onAction="#goToPrevious" text="Previous " textFill="#0b0b0b">
          <font>
             <Font name="System Bold Italic" size="13.0" />
          </font>
       </Button>
-      <Button layoutX="475.0" layoutY="524.0" mnemonicParsing="false" text="View Product" onAction="#viewProducts" textFill="#101010">
+      <Button layoutX="475.0" layoutY="524.0" mnemonicParsing="false" onAction="#viewProducts" text="View Product" textFill="#101010">
          <font>
             <Font name="System Bold Italic" size="13.0" />
          </font>

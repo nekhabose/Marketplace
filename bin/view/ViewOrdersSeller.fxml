@@ -12,7 +12,7 @@
 		<TableView fx:id="tableView" layoutX="21.0" layoutY="51.0" prefHeight="329.0" prefWidth="634.0">
 			<columns>
 				<TableColumn fx:id="orderID" text="Order ID" />
-				<TableColumn fx:id="customerID" text="Customer ID" />
+				<TableColumn fx:id="userId" text="Customer ID" />
 				<TableColumn fx:id="productID" text="Product ID" />
 				<TableColumn fx:id="productName" prefWidth="125.5999755859375" text="Product Name" />
 				<TableColumn fx:id="status" prefWidth="101.5999755859375" text="Status" />
